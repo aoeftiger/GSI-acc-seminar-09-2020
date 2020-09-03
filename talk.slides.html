@@ -13554,7 +13554,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># set up plotting etc</span>
@@ -13576,7 +13576,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">PyHEADTAIL</span>
@@ -13617,7 +13617,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">PyHEADTAIL.trackers.transverse_tracking</span> <span class="k">import</span> <span class="n">TransverseMap</span>
@@ -13660,7 +13660,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">transverse_map</span> <span class="o">=</span> <span class="n">TransverseMap</span><span class="p">(</span>
@@ -13685,7 +13685,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">PyHEADTAIL.trackers.longitudinal_tracking</span> <span class="k">import</span> <span class="n">RFSystems</span>
@@ -13700,7 +13700,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">longitudinal_map</span> <span class="o">=</span> <span class="n">RFSystems</span><span class="p">(</span><span class="o">**</span><span class="n">longitudinal_map_kwargs</span><span class="p">)</span>
@@ -13721,7 +13721,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">PyHEADTAIL.impedances.wakes</span> <span class="k">import</span> <span class="n">WakeField</span><span class="p">,</span> <span class="n">CircularResistiveWall</span>
@@ -13735,7 +13735,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># responsible for binning the beam longitudinally:</span>
@@ -13749,7 +13749,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">resistive_wall_wake</span> <span class="o">=</span> <span class="n">CircularResistiveWall</span><span class="p">(</span>
@@ -13776,7 +13776,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pyht_ring_elements</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">transverse_map</span><span class="p">)</span> <span class="o">+</span> <span class="p">[</span><span class="n">longitudinal_map</span><span class="p">,</span> <span class="n">wakefield</span><span class="p">]</span>
@@ -13805,7 +13805,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">PyHEADTAIL.particles.generators</span> <span class="k">import</span> <span class="n">generate_Gaussian6DTwiss</span>
@@ -13820,7 +13820,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">n_macroparticles</span> <span class="o">=</span> <span class="mi">2000</span>
@@ -13852,7 +13852,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pyht_beam</span><span class="o">.</span><span class="n">y</span> <span class="o">+=</span> <span class="mf">0.1</span> <span class="o">*</span> <span class="n">pyht_beam</span><span class="o">.</span><span class="n">sigma_y</span><span class="p">()</span>
@@ -13865,7 +13865,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">slices0</span> <span class="o">=</span> <span class="n">pyht_beam</span><span class="o">.</span><span class="n">get_slices</span><span class="p">(</span><span class="n">slicer</span><span class="p">,</span> <span class="n">statistics</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;mean_y&#39;</span><span class="p">])</span>
@@ -13887,7 +13887,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">n_turns</span> <span class="o">=</span> <span class="mi">10000</span>
@@ -13918,7 +13918,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">my</span> <span class="o">*</span> <span class="mf">1e3</span><span class="p">)</span>
@@ -13972,7 +13972,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">growth_rate</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">polyfit</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">n_turns</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">my</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="o">/</span> <span class="mf">2.</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
@@ -14006,7 +14006,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">my</span> <span class="o">*</span> <span class="mf">1e3</span><span class="p">)</span>
@@ -14048,7 +14048,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">imports</span> <span class="k">import</span> <span class="n">plot_intrabunch</span>
@@ -14127,7 +14127,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 <li>dispersion relations to solve for stability diagrams</li>
 </ul>
 <center>
-    <img src="images/kornilov_SD.png" alt="SIS100 stability diagram for octupoles" />
+    <img src="images/kornilov_SD.png" alt="SIS100 stability diagram for octupoles" style="max-width:80%;" />
     <small><a href="https://wiki.gsi.de/foswiki/pub/SIS100BD/MacTalksBD/Kornilov_MAC20b.pdf">V. Kornilov on MAC20b</a> or PRSTAB 11, 014201 (2008)</small>
 </center>
 </div>
@@ -14162,7 +14162,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">PyHEADTAIL.feedback.transverse_damper</span> <span class="k">import</span> <span class="n">TransverseDamper</span>
@@ -14195,7 +14195,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pyht_ring_elements</span> <span class="o">+=</span> <span class="p">[</span><span class="n">damper</span><span class="p">]</span>
@@ -14215,7 +14215,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">n_turns_2</span> <span class="o">=</span> <span class="mi">1000</span>
@@ -14246,7 +14246,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">((</span><span class="n">my</span><span class="p">,</span> <span class="n">my_2</span><span class="p">))</span> <span class="o">*</span> <span class="mf">1e3</span><span class="p">)</span>
@@ -14304,6 +14304,49 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="More-on-PyHEADTAIL">More on <code>PyHEADTAIL</code><a class="anchor-link" href="#More-on-PyHEADTAIL">&#182;</a></h1><p>Potentially interesting for GSI:</p>
+<ul>
+<li>realistic feedback model implemented in <a href="https://github.com/PyCOMPLETE/PyHEADTAIL/tree/feature/multibunch_feedback"><code>PyHEADTAIL</code> on branch <code>feature/multibunch_feedback</code> $\nearrow$</a>:<ul>
+<li>bunch-by-bunch feedback</li>
+<li>includes many engineering filters</li>
+<li><a href="https://indico.cern.ch/event/773565/">how-to talk by J. Komppula $\nearrow$</a></li>
+<li>used e.g. to simulate real LHC ADT damper module</li>
+<li><a href="http://accelconf.web.cern.ch/ipac2017/doi/JACoW-IPAC2017-TUPIK091.html">Komppula, J., et al. Simulation Tools for the Design and Performance Evaluation of Transverse Feedback Systems. (IPAC 2017). $\nearrow$</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>handy, advanced space charge models:<ul>
+<li>for simulation on <em>coherent stability</em> with self-consistent space charge: slice-by-slice recentring models with aperture on grid boundary to remove invalid particles</li>
+<li>used e.g. to simulate space charge impact on TMCI thresholds in LHC and SPS at CERN, see e.g. <a href="https://cds.cern.ch/record/2290575">Poster on LHC Instabilities $\nearrow$</a> and <a href="https://inspirehep.net/literature/1736163">Métral, E., Oeftiger, A. et al. Space Charge and Transverse Instabilities at the CERN SPS and LHC. (IPAC 2019). $\nearrow$</a></li>
+</ul>
+</li>
+</ul>
+<center>
+    <img src="images/2.5d_pic.png" alt="2.5D slice-by-slice PIC sketch" style="width:30%;"/>
+</center>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="images/lhc-tmci-nosc.png" alt="LHC TMCI without space charge" style="max-width: 60%;" /></p>
+<p><img src="images/lhc-tmci-withsc.png" alt="LHC TMCI including space charge" style="max-width: 60%;" /></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="3.-SixTrackLib:-symplectic-non-linear-6D-tracking">3. <code>SixTrackLib</code>: symplectic non-linear 6D tracking<a class="anchor-link" href="#3.-SixTrackLib:-symplectic-non-linear-6D-tracking">&#182;</a></h1>
 </div>
 </div>
@@ -14311,7 +14354,7 @@ $$\Delta x'[i] \propto \sum\limits_{j=0}^i N[j] \quad \langle x \rangle [j] \qua
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>GPU-enabled C templated code with Python API for simulating single-particle beam dynamics: <a href="https://github.com/sixtrack/sixtracklib">github repo $\nearrow$</a></p>
+<h1 id="The-SixTrackLib-library">The <code>SixTrackLib</code> library<a class="anchor-link" href="#The-SixTrackLib-library">&#182;</a></h1><p>GPU-enabled C templated code with Python API for simulating single-particle beam dynamics: <a href="https://github.com/sixtrack/sixtracklib">github repo $\nearrow$</a></p>
 <p>$\implies$ advanced non-linear thin-lens <span style="color:#00aad4;">tracking</span>, no further approximations</p>
 <p>$\implies$ approximative / simplified models for <span style="color:#aa0000;">collective effect kicks</span>:</p>
 <ul>
@@ -14328,6 +14371,26 @@ Example for tracking: <span style="color:#ff6701;">dipoles</span> and <span styl
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Background-of-SixTrackLib">Background of <code>SixTrackLib</code><a class="anchor-link" href="#Background-of-SixTrackLib">&#182;</a></h1><ul>
+<li>origin: <code>Fortran77/90</code> code <a href="http://sixtrack.web.cern.ch/SixTrack/"><code>SixTrack</code> $\nearrow$</a>:<ul>
+<li>numerically portable across OS and architectures</li>
+<li>used via volunteer computing project <a href="https://lhcathome.web.cern.ch/LHCathome/">LHC@Home $\nearrow$</a> with $&gt;200$k registered users and $&gt;20$k simultaneously available CPU cores</li>
+</ul>
+</li>
+<li>modernised <code>SixTrackLib</code> written from scratch by R. de Maria and M. Schwinzerl<ul>
+<li>standalone library</li>
+<li>in future to be integrated into <code>SixTrack</code> as new core</li>
+<li>supports GPUs via <code>openCL</code> and <code>CUDA</code></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p><img src="images/stl_pyht_workflow.png" alt="SixTrackLib and PyHT workflow" style="width: 80%; margin: auto;" /></p>
 
 </div>
@@ -14335,7 +14398,7 @@ Example for tracking: <span style="color:#ff6701;">dipoles</span> and <span styl
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pysixtrack</span>
@@ -14358,7 +14421,7 @@ Example for tracking: <span style="color:#ff6701;">dipoles</span> and <span styl
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">madx</span> <span class="o">=</span> <span class="n">Madx</span><span class="p">()</span>
@@ -14386,7 +14449,7 @@ Example for tracking: <span style="color:#ff6701;">dipoles</span> and <span styl
   +     MAD-X 5.06.00  (64 bit, Linux)       +
   + Support: mad@cern.ch, http://cern.ch/mad +
   + Release   date: 2020.08.13               +
-  + Execution date: 2020.09.03 10:56:54      +
+  + Execution date: 2020.09.03 13:52:24      +
   ++++++++++++++++++++++++++++++++++++++++++++
 </pre>
 </div>
@@ -14406,7 +14469,7 @@ Example for tracking: <span style="color:#ff6701;">dipoles</span> and <span styl
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">madx</span><span class="o">.</span><span class="n">call</span><span class="p">(</span><span class="s1">&#39;./SIS100.seq&#39;</span><span class="p">)</span>
@@ -14427,7 +14490,7 @@ Example for tracking: <span style="color:#ff6701;">dipoles</span> and <span styl
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sixtracklib_setup</span> <span class="k">import</span> <span class="o">*</span>
@@ -14461,7 +14524,7 @@ Example for tracking: <span style="color:#ff6701;">dipoles</span> and <span styl
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">madx</span><span class="o">.</span><span class="n">command</span><span class="o">.</span><span class="n">beam</span><span class="p">(</span><span class="n">particle</span><span class="o">=</span><span class="s1">&#39;ion&#39;</span><span class="p">,</span> <span class="n">mass</span><span class="o">=</span><span class="n">A</span><span class="o">*</span><span class="n">nmass</span><span class="p">,</span> <span class="n">charge</span><span class="o">=</span><span class="n">Q</span><span class="p">,</span> <span class="n">energy</span><span class="o">=</span><span class="n">Etot</span><span class="p">);</span>
@@ -14474,7 +14537,7 @@ Example for tracking: <span style="color:#ff6701;">dipoles</span> and <span styl
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">madx</span><span class="o">.</span><span class="n">input</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;</span>
@@ -14496,7 +14559,7 @@ Example for tracking: <span style="color:#ff6701;">dipoles</span> and <span styl
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">madx</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="n">sequence</span><span class="o">=</span><span class="s1">&#39;sis100ring&#39;</span><span class="p">)</span>
@@ -14554,7 +14617,7 @@ makethin: slicing sequence : sis100ring
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">madx</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="n">sequence</span><span class="o">=</span><span class="s1">&#39;sis100ring&#39;</span><span class="p">)</span>
@@ -14632,7 +14695,7 @@ VARIABLE &#34;TAR&#34; SET TO   2.08392285e-13
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">twiss</span> <span class="o">=</span> <span class="n">madx</span><span class="o">.</span><span class="n">twiss</span><span class="p">();</span>
@@ -14701,7 +14764,7 @@ Q1 = 18.84 and Q2 = 18.73
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pysixtrack_elements</span> <span class="o">=</span> <span class="n">pysixtrack</span><span class="o">.</span><span class="n">Line</span><span class="o">.</span><span class="n">from_madx_sequence</span><span class="p">(</span>
@@ -14740,7 +14803,7 @@ Q1 = 18.84 and Q2 = 18.73
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">elements</span> <span class="o">=</span> <span class="n">stl</span><span class="o">.</span><span class="n">Elements</span><span class="o">.</span><span class="n">from_line</span><span class="p">(</span><span class="n">pysixtrack_elements</span><span class="p">)</span>
@@ -14764,7 +14827,7 @@ Q1 = 18.84 and Q2 = 18.73
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">npart</span> <span class="o">=</span> <span class="mi">1</span>
@@ -14778,7 +14841,7 @@ Q1 = 18.84 and Q2 = 18.73
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">particles</span><span class="o">.</span><span class="n">x</span> <span class="o">+=</span> <span class="mf">1e-6</span>
@@ -14800,7 +14863,7 @@ Q1 = 18.84 and Q2 = 18.73
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">job</span> <span class="o">=</span> <span class="n">stl</span><span class="o">.</span><span class="n">TrackJob</span><span class="p">(</span><span class="n">elements</span><span class="p">,</span> <span class="n">particles</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
@@ -14822,7 +14885,7 @@ Q1 = 18.84 and Q2 = 18.73
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">job</span><span class="o">.</span><span class="n">track_until</span><span class="p">(</span><span class="n">nturns</span><span class="p">)</span>
@@ -14843,7 +14906,7 @@ Q1 = 18.84 and Q2 = 18.73
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rec_x</span> <span class="o">=</span> <span class="n">job</span><span class="o">.</span><span class="n">output</span><span class="o">.</span><span class="n">particles</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">x</span>
@@ -14857,7 +14920,7 @@ Q1 = 18.84 and Q2 = 18.73
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">rec_x</span><span class="p">[:</span><span class="mi">128</span><span class="p">])</span>
@@ -14874,13 +14937,13 @@ Q1 = 18.84 and Q2 = 18.73
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[40]:</div>
+    <div class="prompt output_prompt">Out[41]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&lt;matplotlib.lines.Line2D at 0x7fe583cdbfd0&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x7feb4b046450&gt;]</pre>
 </div>
 
 </div>
@@ -14906,7 +14969,7 @@ Q1 = 18.84 and Q2 = 18.73
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sixtracklib_setup</span> <span class="k">import</span> <span class="n">plot_tunes_from_stl_results</span>
@@ -14967,7 +15030,7 @@ Q1 = 18.84 and Q2 = 18.73
 <li>field error models until 7th order for dipole and quadrupole magnets</li>
 </ul>
 <p>$~\longrightarrow~$ scan 2D tune diagrams, $\approx 2$min per simulation for 20'000 turns</p>
-<p>(on <code>virgo</code> cluster: 64 CPU cores or NVIDIA V100 GPU)</p>
+<p>(on <code>virgo.hpc</code> cluster: 64 CPU cores or NVIDIA V100 GPU)</p>
 
 </div>
 </div>
@@ -15030,11 +15093,37 @@ Q1 = 18.84 and Q2 = 18.73
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Compare-space-charge-resonance-behaviour">Compare space charge resonance behaviour<a class="anchor-link" href="#Compare-space-charge-resonance-behaviour">&#182;</a></h1><p>With the new merger <code>SixHead</code> $=$ <code>SixTrackLib</code> + <code>PyHEADTAIL</code>:</p>
+<h1 id="Compare-space-charge-resonance-behaviour">Compare space charge resonance behaviour<a class="anchor-link" href="#Compare-space-charge-resonance-behaviour">&#182;</a></h1><p>With the new merger <code>SixHead</code> $=$ <code>SixTrackLib</code> + <code>PyHEADTAIL</code> on the GPU:</p>
+<p><br /></p>
+<center>
+<img src="images/transverse-model_integration.png" alt="integrating PyHEADTAIL and SixTrackLib" style="width:30%;"/>
+Alternating SixTrackLib <span style="color:#00aad4;">tracking</span> and PyHEADTAIL <span style="color:#aa0000;">kicking</span>
+</center>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Approach:">Approach:<a class="anchor-link" href="#Approach:">&#182;</a></h3><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_turns</span><span class="p">):</span>
+    <span class="c1"># SixTrackLib:</span>
+    <span class="n">pyht_to_stl</span><span class="p">()</span>
+    <span class="n">trackjob</span><span class="o">.</span><span class="n">track_until</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="n">stl_to_pyht</span><span class="p">()</span>
+    <span class="c1"># PyHEADTAIL</span>
+    <span class="n">spacecharge</span><span class="o">.</span><span class="n">track</span><span class="p">(</span><span class="n">pyht_beam</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>$\implies$ compare frozen space charge models with self-consistent 3D particle-in-cell space charge:</p>
 <p><br /></p>
 <center>
-    <img src="images/induced-res.png" alt="space charge model comparison" style="max-width:80%;" />
+    <img src="images/induced-res.png" alt="space charge model comparison" style="max-width:60%;" />
     <small>1D tune scan across resonance</small>
 </center>
 </div>
@@ -15043,11 +15132,16 @@ Q1 = 18.84 and Q2 = 18.73
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="2nd-order-(and-higher)-coherent-instabilities">2nd order (and higher) coherent instabilities<a class="anchor-link" href="#2nd-order-(and-higher)-coherent-instabilities">&#182;</a></h1><p>Investigating 90deg stop-band for higher-order coherent instabilities in synchrotrons with <code>SixHead</code> (10'000 turns on GPU with 4 million macro-particles in 4h):</p>
+<h1 id="2nd-(and-higher)-order-coherent-instabilities">2nd (and higher) order coherent instabilities<a class="anchor-link" href="#2nd-(and-higher)-order-coherent-instabilities">&#182;</a></h1><p>Investigating 90deg stop-band with <code>SixHead</code>:</p>
+<ul>
+<li>full 3D selfconsistent study, including synchrotron motion</li>
+<li>characterise higher-order coherent instabilities in synchrotrons</li>
+<li>10'000 turns on GPU with 4 million macro-particles in $&lt;4$h</li>
+</ul>
 <p><br /></p>
 <center>
-    <img src="images/3d-90deg.png" alt="3D study on 90deg stop-band" style="max-width:80%;" />
-    <small>1D tune scan across resonance</small>
+    <img src="images/3d-90deg.png" alt="3D study on 90deg stop-band" style="max-width:40%;" />
+    <small>1D tune scan across resonance for 300x slower $Q_s$ than $Q_{x,y}$</small>
 </center>
 </div>
 </div>
@@ -15065,11 +15159,11 @@ Q1 = 18.84 and Q2 = 18.73
 <h1 id="Summary">Summary<a class="anchor-link" href="#Summary">&#182;</a></h1><p>New suite <code>SixHead</code> consisting of:</p>
 <ul>
 <li>symplectic 6D non-linear tracking with <code>SixTrackLib</code></li>
-<li>collective beam dynamics with <code>PyHEADTAIL</code> (wakefields, space charge, feedbacks)</li>
+<li>collective beam dynamics with <code>PyHEADTAIL</code> (wakefields, space charge, feedbacks, ...)</li>
 </ul>
 <p>is parallelised on:</p>
 <ul>
-<li>multi-core CPU tracking</li>
+<li>multi-core CPU (tracking)</li>
 <li>GPU</li>
 </ul>
 <p>and renders possible:</p>
@@ -15083,7 +15177,13 @@ Q1 = 18.84 and Q2 = 18.73
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="THANK-YOU!">THANK YOU!<a class="anchor-link" href="#THANK-YOU!">&#182;</a></h1>
+<h1 id="Thank-you-for-your-attention!">Thank you for your attention!<a class="anchor-link" href="#Thank-you-for-your-attention!">&#182;</a></h1><h3 id="Acknowledgements">Acknowledgements<a class="anchor-link" href="#Acknowledgements">&#182;</a></h3><p>CERN collaborators: R. de Maria, H. Bartosik, M. Schwinzerl</p>
+<p>GSI colleagues: V. Chetvertkova, S. Sorge</p>
+<p><br /><br /></p>
+<center>
+    <img src="images/smiley.png" alt="instability smiley" style="max-width: 20%; margin: auto;" />
+
+</center>
 </div>
 </div>
 </div></section></section>
