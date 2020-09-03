@@ -25,6 +25,7 @@ $ singularity exec --bind /cvmfs \
 Singularity> cd /cvmfs/aph.gsi.de/
 Singularity> source modules.sh
 Singularity> module load aph_all
+Singularity> cd
 Singularity> git clone https://github.com/aoeftiger/GSI-acc-seminar-09-2020
 Singularity> cd GSI-acc-seminar-09-2020
 Singularity> jupyter notebook --no-browser --port=8888
