@@ -2,10 +2,14 @@
 
 ## ... a story of resonances and instabilities.
 
-### a notebook talk by [Adrian Oeftiger](http://oeftiger.net/)
+A notebook talk by [Adrian Oeftiger](http://oeftiger.net/).
 
-Find here the announcement of the [GSI Accelerator Seminar on 3 September 2020](https://indico.gsi.de/event/10059/).
-See also [rendered talk slides on github](https://aoeftiger.github.io/GSI-acc-seminar-09-2020/).
+## Resources
+
+See here
+- the [rendered slides](https://aoeftiger.github.io/GSI-acc-seminar-09-2020/),
+- the [poster announcement for the GSI Accelerator Seminar on 3 September 2020](https://github.com/aoeftiger/GSI-acc-seminar-09-2020/raw/master/Accelerator_Seminar_Announcement__AdrianOeftiger_3September2020.pdf), and
+- the [GSI indico page for the seminar](https://indico.gsi.de/event/10059/).
 
 ## Abstract
 
